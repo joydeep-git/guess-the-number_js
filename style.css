@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    text-align: left;
+}
+
+.msg {
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-size: 1.5rem;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#input-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#enter-number {
+    text-align: center;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#enter {
+    width: 1.2rem;
+    cursor: pointer;
+}
+
+#show-msg {
+    margin: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#score {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
